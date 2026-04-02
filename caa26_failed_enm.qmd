@@ -1,0 +1,179 @@
+---
+title: Can ecological models predict the occurrence of species in the archaeological record? 
+subtitle: (Can I?)
+author:
+  name: Joe Roe
+  url: "https://joeroe.io"
+  affiliation: "University of Copenhagen"
+title-slide-attributes:
+  data-background-image: images/Triticum_turgidum_illustration.png
+  data-background-size: contain
+  data-background-position: right
+format: 
+  revealjs:
+    theme: [default, caa26_failed_enm.scss]
+    transition: slide
+    footer: "Joe Roe – Can ecological models predict the occurrence of species in the archaeological record? Can I?"
+    embed-resources: true
+execute:
+  cache: true
+---
+
+![<small>Gronenborn et al. 2021, <https://doi.org/10.5281/zenodo.5903165></small>](images/RGZM_OAI_Neolithic_Exp_2021.2.jpg)
+
+---
+
+:::: {.columns}
+
+::: {.column}
+![<small>Arranz-Otaegui et al. 2016, <https://doi.org/10.1073/pnas.1612797113></small>](images/arranz_otaegui_et_al_2016_fig1.jpeg)
+
+![<small>Arranz-Otaegui et al. 2018, <https://doi.org/10.1016/j.quascirev.2018.02.011></small>](images/arranz_otaegui_et_al_2018_fig8.jpg)
+:::
+
+::: {.column}
+![<small>Arranz-Otaegui & Roe 2023, <https://doi.org/10.1007/s00334-023-00917-1></small>](images/arranz_otaegui_and_roe_2023_fig3.webp)
+:::
+
+::::
+
+---
+
+![](images/enm_methodology.png)
+
+---
+
+![](images/pred_yds.png)
+
+---
+
+## {.smaller}
+
+:::: {.columns}
+
+::: {.column}
+![<small>Sum of predicted palaeodistributions</small>](images/fig-palaeodist-sum-1.png)
+:::
+
+::: {.column}
+### Key findings
+
+* Species ranges likely different & smaller than today
+* Ranges shrank c. 25% from Pleistocene to Holocene
+* Range of crop progenitors extended to Western Anatolia, Cyprus, Aegean
+:::
+
+::::
+
+<small>Roe, J. & Arranz-Otaegui, A., 2026. Biogeography of crop progenitors and wild plant resources in the terminal Pleistocene and Early Holocene of West Asia, 14.7–8.3 ka. *Open Quaternary* 12. <https://doi.org/10.5334/oq.163></small>
+
+---
+
+:::: {.columns}
+
+::: {.column}
+![](images/tab-verification.png)
+:::
+
+::: {.column}
+![](images/fig-verification.png)
+:::
+
+::::
+
+---
+
+## Is the model wrong?
+
+* Heavy spatial bias in occurrence data
+* No hyperparameter tuning
+
+---
+
+## Is the archaeology wrong?
+
+* Small samples
+* Assemblages aggregated by site-phase
+* Poor chronological control
+
+---
+
+## ...or is the concept wrong?
+
+* Fundamental vs. realised niche
+* Plasticity unaccounted for
+* Human impact unaccounted for
+* Time-averaged _in different ways_
+
+---
+
+## Summary {.smaller}
+
+:::: {.columns}
+
+::: {.column}
+### Better model
+* Spatially stratified sampling
+* Per-species hyperparameter tuning
+:::
+
+::: {.column}
+### Better training data
+
+* More biodiversity surveys in the Middle East
+* Century-scale palaeoclimatologies
+* Climatic uncertainty/interannual variability
+:::
+
+::: {.column}
+### Better verification
+
+* Context-level archaeobotanical database
+* Refined chronology
+:::
+
+::: {.column}
+### But can ecological models predict the occurrence of species in the archaeological record?
+:::
+
+::::
+
+---
+
+## <small>Can ecological models predict the occurrence of species in the archaeological record? Can I?</small> {.smaller}
+
+Joe Roe, University of Copenhagen
+
+:::: {.columns}
+
+::: {.column}
+**Contact**
+
+{{< bi house-fill >}} <https://joeroe.io>  
+{{< bi envelope-fill >}} [jar@hum.ku.dk](mailto:jar@hum.ku.dk)  
+{{< bi mastodon >}} [joeroe@archaeo.social](https://archaeo.social/@joeroe)
+:::
+
+::: {.column}
+**These slides**
+
+{{< bi easel3 >}} [joeroe.io/caa26_failed_enm](https://joeroe.io/caa26_failed_enm/caa26_failed_enm.html)  
+{{< bi github >}} [joeroe/caa26_failed_enm](https://github.com/joeroe/caa26_failed_enm)  
+<!-- {{< ai doi >}} [10.5281/zenodo.8416267.](https://doi.org/10.5281/zenodo.8416267) -->
+:::
+
+::::
+
+::: aside
+Key references
+: Arranz-Otaegui, A. & Roe, J. 2023. Revisiting the concept of the 'Neolithic Founder Crops' in southwest Asia. *Vegetation History and Archaeobotany*. <https://doi.org/10.1007/s00334-023-00917-1>
+: Brown et al. 2018. PaleoClim, high spatial resolution paleoclimate surfaces for global land areas. *Nature Scientific Data*. <https://doi.org/10.1038/sdata.2018.254>
+: Franklin et al. 2015. Paleodistribution modeling in archaeology and paleoanthropology. *Quaternary Science Reviews*. <https://doi.org/10.1016/j.quascirev.2014.12.015>
+: **Roe, J. & Arranz-Otaegui, A., 2026.** Biogeography of crop progenitors and wild plant resources in the terminal Pleistocene and Early Holocene of West Asia, 14.7–8.3 ka. *Open Quaternary* 12. <https://doi.org/10.5334/oq.163>
+: Valavi et al. 2021. Modelling species presence-only data with random forests. *Ecography*. <https://doi.org/10.1111/ecog.05615>
+
+Acknowledgements
+: Amaia Arranz-Otaegui, Alexander Weiss, Peter Yaworsky, Tobias Richter, Martin Hinz, Albert Hafner
+: C. L. Davids Fond og Samling, Swiss National Science Foundation, ERC 'PalaeOrigins'
+:::
+

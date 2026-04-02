@@ -1,0 +1,23 @@
+/*-- scss:rules --*/
+
+#title-slide {
+	text-align: left;
+}
+
+#title-slide .title {
+	font-size: var(--r-heading3-size);
+}
+
+#title-slide .quarto-title-authors {
+	justify-content: start;
+}
+
+#title-slide .quarto-title-author {
+	padding: 0;
+}
+
+.caption {
+	font-size: 0.45em !important;
+	color: var(--quarto-text-muted);
+	text-align: center;
+}
